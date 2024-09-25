@@ -10,6 +10,6 @@ cp tools/ci/ci_config.txt ci_test/config/config.txt
 cp tools/ci/ci_maps.txt ci_test/config/maps.txt
 
 cd ci_test
-DreamDaemon lobotomy-corp13.dmb -close -trusted -verbose -params "log-directory=ci"
+DreamDaemon lobotomy-corp13.dmb -close -safe -verbose -params "log-directory=ci"
 cd ..
 cat ci_test/data/logs/ci/clean_run.lk
